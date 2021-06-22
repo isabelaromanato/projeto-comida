@@ -13,11 +13,11 @@ body {
 
 
 header {
-    background:url(img/header.PNG);
+   
     background-repeat: repeat-x;
     background-size: 100%;
     background-color: #222222;
-    height: 110px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
