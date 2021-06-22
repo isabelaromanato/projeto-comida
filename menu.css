@@ -1,0 +1,51 @@
+.menu {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    list-style: none;
+    color: white;
+    gap: 30px;
+    font-size: 100%;
+     
+}
+
+
+ .menu li:hover > .submenu {
+     display: block;
+ 
+ }
+
+.submenu{
+    margin-top: 1px; 
+    display: none; 
+    position: absolute;
+   
+}
+
+.submenu a{
+    width: 210px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #222222;
+    color: white;   
+}
+
+.submenu a:hover {
+    border-left: 10px solid #F09167;
+}
+/* barrinha laranja */
+.menu a span {
+ font-size: 20px ;
+}
+/* setinha */
+
+.menu2 {
+   
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    list-style: none;
+}
