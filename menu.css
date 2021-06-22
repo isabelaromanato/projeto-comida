@@ -2,11 +2,13 @@
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     align-items: center;
-    list-style: none;
+    list-style-type: none;
     color: white;
-    gap: 30px;
+    gap: 35px;
     font-size: 100%;
-     
+    margin-left: 180px;
+    /* margin-right: 70px; */
+    
 }
 
 
@@ -37,10 +39,6 @@
     border-left: 10px solid #F09167;
 }
 /* barrinha laranja */
-.menu a span {
- font-size: 20px ;
-}
-/* setinha */
 
 .menu2 {
    
@@ -48,4 +46,10 @@
     gap: 30px;
     text-decoration: none;
     list-style: none;
+    margin-left: 150px;
 }
+
+.menu2 a span {
+    font-size: 10px ;
+   }
+   /* setinha */

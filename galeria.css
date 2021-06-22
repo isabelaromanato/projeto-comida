@@ -1,0 +1,11 @@
+th  {
+
+    color: #87BECA;
+    font-size: 80 px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+    .imagens:hover {
+        background-color: lightgreen;
+    }
