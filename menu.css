@@ -6,11 +6,14 @@
     color: white;
     gap: 35px;
     font-size: 100%;
-    margin-left: 180px;
-    /* margin-right: 70px; */
+    margin-left: 150px;
     
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
  .menu li:hover > .submenu {
      display: block;
@@ -53,3 +56,10 @@
     font-size: 10px ;
    }
    /* setinha */
+
+   .nav {
+
+    background-color: white;
+   }
+
+   
